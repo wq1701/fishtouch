@@ -4,8 +4,6 @@ Created on Fri Dec 10 17:22:55 2021
 
 @author: Weiwei QI
 """
-# usage:
-# Windows: python turnvolume.py
 
 
 import time

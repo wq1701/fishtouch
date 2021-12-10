@@ -58,6 +58,3 @@ def movingmouse():
 
 if __name__ == '__main__':
     movingmouse()
-
-# usage:
-# Windows: python turnvolume.py
