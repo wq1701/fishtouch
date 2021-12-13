@@ -50,7 +50,7 @@ def movingmouse():
             time.sleep(10)
 
             for i in range(0, 100):
-                pyautogui.moveTo(i*3, i*5)
+                pyautogui.moveTo(0, i*5)
 
     except KeyboardInterrupt:
         print("Program exited. Now go back to work")
