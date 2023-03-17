@@ -2,7 +2,7 @@
 
 Programs used to simulate mouse/keyboard activity to prevent PC from sleeping. 
 
-# install
+# installation
 
 clone the project
 
@@ -12,7 +12,9 @@ cd .../your_cloned_path/fishtouch
 pip install -r .\requirements.txt
 ```
 
-To start, run
+# guide
+
+To start, run below command in the `fishtouch` directory (check with `pwd` or `chdir`)
 
 ```
 python turnvolume.py 
@@ -25,7 +27,7 @@ python movemouse.py
 by using Anaconda Prompt/PowerShell or Mac Terminal
 
 
-*Of counrse you need to have python installed first on your machine*
+*Of counrse you need to have python installed on your machine first*
 
 after having python installed,
 
