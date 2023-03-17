@@ -12,17 +12,27 @@ cd .../your_cloned_path/fishtouch
 pip install -r .\requirements.txt
 ```
 
-To use one of them, do
+To start, run
 
-`python turnvolume.py`
-
+```
+python turnvolume.py 
+```
 or 
-
-`python movemouse.py`
+```
+python movemouse.py
+```
 
 by using Anaconda Prompt/PowerShell or Mac Terminal
 
-# Of counrse you need to have python installed first on your machine
+
+*Of counrse you need to have python installed first on your machine*
+
+after having python installed,
+
+```
+which python # MacOS Terminal
+where python # Windows Anaconda Prompt
+```
 
 ```
 python --version
