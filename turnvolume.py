@@ -18,7 +18,8 @@ def KeepUI():
     layout = [
         [sg.Text('Keep-Me-Up is now running.\nYou can keep it minised, and it will continue running.\nClose it to disable it.')]
     ]
-    window = sg.Window('Keep-Me-Up', layout, icon = "red_plus.ico")
+    # window = sg.Window('Keep-Me-Up', layout, icon = "red_plus.ico")
+    window = sg.Window('Keep-Me-Up', layout, icon = "fish.ico")
 
     p2 = multiprocessing.Process(target=dontsleep)
     p2.start()
