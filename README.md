@@ -51,3 +51,11 @@ python --version
 ```
 
 Mine was `Python 3.8.8` when coding. 
+
+
+## update after switching from conda env to virtual environment
+```bash
+.\Desktop\wwqi4real\pvenvs\fish\Scripts\activate
+cd .\Desktop\wwqi4real\wd\skunk\wq1701\fishtouch\
+python .\turnvolume_v2.py
+```

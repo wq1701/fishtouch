@@ -1,2 +1,2 @@
-PySimpleGUI==4.60.4
-PyAutoGUI==0.9.53
+PySimpleGUI
+PyAutoGUI

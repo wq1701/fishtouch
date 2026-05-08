@@ -3,6 +3,9 @@
 Created on Fri Dec 10 17:22:55 2021
 
 @author: Weiwei QI
+
+PySimpleGUI==4.60.4
+PyAutoGUI==0.9.53
 """
 
 
@@ -19,7 +22,7 @@ def KeepUI():
         [sg.Text('Keep-Me-Up is now running.\nYou can keep it minised, and it will continue running.\nClose it to disable it.')]
     ]
     # window = sg.Window('Keep-Me-Up', layout, icon = "red_plus.ico")
-    window = sg.Window('Keep-Me-Up', layout, icon = "fish.ico")
+    window = sg.Window('Keep-Me-Up', layout, icon = "./icon/fish.ico")
 
     p2 = multiprocessing.Process(target=dontsleep)
     p2.start()
@@ -37,7 +40,7 @@ def dontsleep():
         pyautogui.press('volumedown')
         time.sleep(1)
         pyautogui.press('volumeup')
-        time.sleep(300)
+        time.sleep(180)
 
 
 if __name__ == '__main__':
