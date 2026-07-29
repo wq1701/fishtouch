@@ -22,9 +22,9 @@ def KeepUI():
         pass
 
     label = tk.Label(root,
-                     text="Stay awake, little machine, for dreams are meant for humans.\n"
-                          "\n"
-                          "meh, what's life without whimsy"
+                     text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+                        "\n"
+                        "sed do eiusmod tempor \n incididunt ut labore et dolore magna aliqua. "
                      )
     label.pack(pady=20, padx=20)
 
@@ -48,7 +48,7 @@ def dontsleep():
             pyautogui.press('volumedown')
             time.sleep(1)
             pyautogui.press('volumeup')
-            time.sleep(180)
+            time.sleep(60)
         except pyautogui.FailSafeException:
             # If PyAutoGUI fail-safe triggers (mouse in screen corner),
             # we simply catch the exception, pause briefly, and resume the loop.

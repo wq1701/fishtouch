@@ -20,7 +20,6 @@ def KeepUI():
     root.iconbitmap('./icon/fish.ico')
 
     label = tk.Label(root,
-                     # text='Keep-Me-Up is now running.\nYou can keep it minimized, and it will continue running.\nClose it to disable it.'
                      text="Stay awake, little machine, for dreams are meant for humans.\n"
                           "\n"
                           "meh, what's life without whimsy"
